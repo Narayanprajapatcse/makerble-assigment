@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav{ display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(39, 39, 59);
+    /* gap:5rem; */
+    height: 15vh;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+    
+
+img{margin-right: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+
+}
+
+ul{ display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    list-style: none;
+    padding-left: 12rem;
+}
+
+a{text-decoration: none;
+    color: whitesmoke;}
+
+.button{margin-left: 4rem; 
+        border-radius: 5px;
+        padding: .7rem 1rem;
+        background-color: rgb(10, 150, 206);}
+
+button{border: none; 
+        background-color: rgb(10, 150, 206);}
+
+.tedlogo{ width: 55rem ;
+        margin-left: 8rem;    
+}
+
+
+main{   height: 85vh; 
+        /* font-family: cursive; */
+        /* font-family: monospace; */
+        /* font-family: sans-serif; */
+        font-family: 'Times New Roman', Times, serif;
+    
+    
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+
+
+}
+
+#active{ border-bottom: 2px solid white;
+}
+
+.h1{ margin-top: 5rem;
+    font-size: 2.5rem;
+}
+
+.size{ width: 45rem;
+     color: darkgray ;
+}
+
+.A{border: 2px solid ;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;    
+    background-color:rgba(54, 181, 231, 0.993);
+    color: white;
+    font-size: large;
+    border-radius: 6px;
+
+}
+
+.take{ font-size: 2rem;}
+
+.over{ width: 52rem;
+        color: darkgray;
+
+}
+
+
+.justicelogo{ width: 48rem;
+            margin-left: 10rem;
+}
